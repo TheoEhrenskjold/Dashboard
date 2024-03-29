@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>    
+        <div class="clock-container">
+            <div id="clock"></div>
+            <div id="date"></div>
+        </div>
+    </header>
+
+        
+    <h1 class="rubrik" id="rubrik">Rubrik</h1>
+        
+    
+    <div class="box-container">
+    <div class="box box1"><div id="links-container">
+        <h2>Snabblänkar</h2>
+        <ul id="links-list">
+            
+          
+        </ul>
+        
+        <button id="toggle-link-form-btn">Lägg till ny länk</button>
+        <input type="text" id="link-url" placeholder="URL">
+        <input type="text" id="link-title" placeholder="Rubrik">
+        <button id="add-link-btn">OK</button>
+      </div></div>
+
+    <div class="box box2">
+        <div id="weather-container">
+            <h2>Väder</h2>
+            <div id="weather-info">
+                
+            </div>
+        </div>
+    </div>
+    <div class="box box3"><h2>Pokemon</h2>
+        <input type="number" id="pokemon-input" placeholder="Enter Pokémon ID">
+    <button id="fetch-button">Fetch Pokémon</button>
+    <div id="pokemon-info"></div>
+    </div>
+
+
+    <div class="box box4">
+        <div id="notes-container">
+            <h2>Snabb anteckning</h2>
+            <textarea id="notes-textarea" rows="20" cols="30"></textarea>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="easteregg-button">
+            <div id="search-form">
+                <input type="text" id="search-keyword" placeholder="Skriv valfritt ord">
+                <button id="search-button">Sök efter en ny Bakgrund</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
